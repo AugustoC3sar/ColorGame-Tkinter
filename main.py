@@ -7,6 +7,7 @@ import threading
 
 
 root = Tk()
+root.title('Color Game')
 
 #defining
 score = 0
@@ -159,8 +160,8 @@ breset = Button(root, text="Reset", bg="#2222AA", fg="#FFFFFF", font=helv13bold,
 #placing
 instructionLabel.place(x=90, y=10)
 scoreLabel.place(x=270,y=60)
-colorLabel.place(x=310, y=205)
-timerLabel.place(x=290, y=250)
+colorLabel.place(x=350, y=205, anchor='center')
+timerLabel.place(x=280, y=250)
 user_frame.place(x=140, y=290)
 bstart.place(x=80, y=400)
 breset.place(x=360, y=400)
